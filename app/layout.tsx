@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className= "flex min-h-screen bg-[#0f0f0f]">
-        <div className= "flex flex-col bg-[#1a1a1a] w-15 items-center py-5 gap-15">
+        <div className= "flex flex-col bg-[#1a1a1a] w-14 items-center py-5 gap-15">
         
          <Link href="/">
           <button>
