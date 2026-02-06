@@ -37,7 +37,7 @@ export default function Contact() {
 
             {/*Contact Me Text*/}
             <div className= " flex items-start justify-start">
-                <p className="text-[#e5e5e5]" style={{ fontSize: "clamp(30px, 2vw, 50px)" }}>Contact Information</p>
+                <h1 className="text-[#e5e5e5]" style={{ fontSize: "clamp(30px, 2vw, 50px)" }}>Contact Information</h1>
             </div>
 
             {/*link and email section*/}

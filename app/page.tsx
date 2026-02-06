@@ -14,7 +14,7 @@ export default function Home() {
 
       {/* Text Section */}
       <div className= "text-center text-[#787878]">
-        <p className= " text-[#e5e5e5] text-[clamp(40px,5vw,80px)]">My Projects</p>
+        <h1 className= " text-[#e5e5e5] text-[clamp(40px,5vw,80px)]">My Projects</h1>
         <p className= "text-[clamp(16px, 1.8vw, 35px)]">Hi, I am Emmanuel Ceja, im a</p>
         <p className= "text-[clamp(16px, 1.8vw, 35px)]">computer science student who </p>
         <p className= "text-[clamp(16px, 1.8vw, 35px)]">likes turning ideas into</p>
