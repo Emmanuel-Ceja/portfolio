@@ -20,7 +20,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/ai-summarizer">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg">
                         <p className="text-[#e5e5e5] text-center"> AI Summarizer and Translator App</p>
-                        <Image src="/images/Mobile-App.jpeg" alt="Mobile App Image" width={100} height={100}/>
+                        <Image src="/portfolio/images/Mobile-App.jpeg" alt="Mobile App Image" width={100} height={100}/>
                         <p className="text-[#787878] text-center">Smart summaries and real-time translations powered by Gemini AI.</p>
                     </div>
                 </Link>
@@ -36,7 +36,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/custom-string-class">
                     <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
                         <p className="text-[#e5e5e5] text-center"> Custom String Class in C++</p>
-                        <Image src="/images/Custom-String-Class.png" alt="Custom String Class Image" width={163} height={228}/>
+                        <Image src="/portfolio/images/custom-string-class.png" alt="Custom String Class Image" width={163} height={228}/>
                         <p className="text-[#787878] text-center"> A custom implementation of a string class in C++ with overloaded operators and memory management.</p>
                     </div>
                 </Link>
