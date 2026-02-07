@@ -21,19 +21,19 @@ export default function RootLayout({
         
          <Link href="/">
           <button>
-            <Image src="/icons/home.png" alt="Home" width={30} height={30}/>
+            <Image src="/portfolio/icons/home.png" alt="Home" width={30} height={30}/>
           </button>
           </Link>
         
           <Link href="/portfolio">
            <button>
-            <Image src="/icons/portfolio.png" alt="Portfolio" width={30} height={30}/>
+            <Image src="/portfolio/icons/portfolio.png" alt="Portfolio" width={30} height={30}/>
            </button>
           </Link>
 
           <Link href="/contact">
             <button>
-              <Image src="/icons/contact.png" alt="Contact" width={30} height={30}/>
+              <Image src="/portfolio/icons/contact.png" alt="Contact" width={30} height={30}/>
             </button>
           </Link>
         </div>
