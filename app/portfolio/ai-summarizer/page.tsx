@@ -13,7 +13,7 @@ export default function AISummarizer() {
                 <h1 className="text-[#e5e5e5]" style={{ fontSize: "clamp(30px, 2vw, 50px)" }}>AI Summarizer and Translator App</h1>
             </div>
             <div className= "flex flex-col items-center max-w-2xl mx-auto">
-                <Image src="/gif/AiSummarizer.gif" alt="Mobile App GIF" width={150} height={150}/>
+                <Image src="/portfolio/gif/AiSummarizer.gif" alt="Mobile App GIF" width={150} height={150}/>
                 <p className= "text-[#787878]" style= {{ fontSize: "clamp(16px, 2vw, 30px)" }}> 
                     This cross-platform mobile application built with React Native and Expo streamlines document processing through Artificial Intelligence.
                     The app allows users to seamlessly upload document from their local device and recieve automated summaries and translations. 

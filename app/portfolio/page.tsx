@@ -28,7 +28,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/gui-calculator">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
                         <p className="text-[#e5e5e5] text-center"> GUI Calculator</p>
-                        <Image src="/images/GUI-Calculator.png" alt="GUI Calculator Image" width={228} height={228}/>
+                        <Image src="/portfolio/images/GUI-Calculator.png" alt="GUI Calculator Image" width={228} height={228}/>
                         <p className="text-[#787878] text-center"> A lightweight GUI calculator designed using Qt Creator.</p>
                     </div>
                 </Link>

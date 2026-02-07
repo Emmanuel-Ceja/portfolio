@@ -13,7 +13,7 @@ export default function CustomStringClass() {
                 <h1 className="text-[#e5e5e5]" style={{ fontSize: "clamp(30px, 2vw, 50px)" }}>Custom String Class</h1>
             </div>
             <div className= "flex flex-col items-center max-w-2xl mx-auto">
-                <Image src="/gif/customStringClass.gif" alt="Custom String Class GIF" width={400} height={150}/>
+                <Image src="/portfolio/gif/customStringClass.gif" alt="Custom String Class GIF" width={400} height={150}/>
             </div>
         </div>
 

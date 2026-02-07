@@ -14,7 +14,7 @@ export default function GUICalculator() {
             </div>
 
             <div className= "flex flex-col items-center max-w-2xl mx-auto">
-                <Image src="/gif/guiCalculator.gif" alt="GUI Calculator GIF" width={250} height={150}/>
+                <Image src="/portfolio/gif/guiCalculator.gif" alt="GUI Calculator GIF" width={250} height={150}/>
                 <p className= "text-[#787878]" style= {{ fontSize: "clamp(16px, 2vw, 30px)" }}>
                     This desktop GUI calculator application, developed using C++ and Qt Creator, offers a user-friendly interface for performing basic arithmetic operations.
                     Unlike basic calculators that process operation sequentially, this application implements a full parsing engine to handle complex, multi-operator
