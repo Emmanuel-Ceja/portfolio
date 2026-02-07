@@ -2,7 +2,7 @@ name: Deploy Next.js site to Pages
 
 on:
   push:
-    branches: ["main"] # Runs every time you push to the main branch
+    branches: ["master"] 
 
 permissions:
   contents: read
@@ -29,7 +29,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out # Next.js 'export' outputs files here
+          path: ./out 
 
   deploy:
     environment:
