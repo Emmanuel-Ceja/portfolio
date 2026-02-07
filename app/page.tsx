@@ -24,7 +24,7 @@ export default function Home() {
     
     {/*Tech Stack Section*/}
      <div className= "grid grid-cols-2 gap-4">
-      <Image src="/icons/c++.jpg" alt="C++" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src="/icons/cpp.jpg" alt="C++" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src="/icons/python.png" alt="Python" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src="/icons/typescript.jpg" alt="TypeScript" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src="/icons/nextjs.jpg" alt="Next.js" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
