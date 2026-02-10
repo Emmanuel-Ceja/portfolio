@@ -8,6 +8,7 @@ const vt323 = VT323({
 });
 
 export default function Portfolio() {
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
     return (
         <div className={vt323.className + " min-h-screen"}> 
            
@@ -20,7 +21,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/ai-summarizer">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg">
                         <p className="text-[#e5e5e5] text-center"> AI Summarizer and Translator App</p>
-                        <Image src="/portfolio/images/Mobile-App.jpeg" alt="Mobile App Image" width={100} height={100}/>
+                        <Image src={`${basePath}/images/Mobile-App.jpeg`} alt="Mobile App Image" width={100} height={100}/>
                         <p className="text-[#787878] text-center">Smart summaries and real-time translations powered by Gemini AI.</p>
                     </div>
                 </Link>
@@ -28,7 +29,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/gui-calculator">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
                         <p className="text-[#e5e5e5] text-center"> GUI Calculator</p>
-                        <Image src="/portfolio/images/GUI-Calculator.png" alt="GUI Calculator Image" width={228} height={228}/>
+                        <Image src={`${basePath}/images/GUI-Calculator.png`} alt="GUI Calculator Image" width={228} height={228}/>
                         <p className="text-[#787878] text-center"> A lightweight GUI calculator designed using Qt Creator.</p>
                     </div>
                 </Link>
@@ -36,7 +37,7 @@ export default function Portfolio() {
                 <Link href="/portfolio/custom-string-class">
                     <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
                         <p className="text-[#e5e5e5] text-center"> Custom String Class in C++</p>
-                        <Image src="/portfolio/images/custom-string-class.png" alt="Custom String Class Image" width={163} height={228}/>
+                        <Image src={`${basePath}/images/custom-string-class.png`} alt="Custom String Class Image" width={163} height={228}/>
                         <p className="text-[#787878] text-center"> A custom implementation of a string class in C++ with overloaded operators and memory management.</p>
                     </div>
                 </Link>

@@ -8,6 +8,7 @@ const silkscreen = Silkscreen ({
 });
 
 export default function Home() { 
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     
     <div className={silkscreen.className + " flex justify-between items-center min-h-screen px-10"}>
@@ -24,10 +25,10 @@ export default function Home() {
     
     {/*Tech Stack Section*/}
      <div className= "grid grid-cols-2 gap-4">
-      <Image src="/portfolio/icons/cpp.jpg" alt="C++" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
-      <Image src="/portfolio/icons/python.png" alt="Python" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
-      <Image src="/portfolio/icons/typescript.jpg" alt="TypeScript" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
-      <Image src="/portfolio/icons/nextjs.jpg" alt="Next.js" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src={`${basePath}/icons/cpp.jpg`} alt="C++" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src={`${basePath}/icons/python.png`} alt="Python" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src={`${basePath}/icons/typescript.jpg`} alt="TypeScript" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src={`${basePath}/icons/nextjs.jpg`} alt="Next.js" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       </div>
 
     </div>

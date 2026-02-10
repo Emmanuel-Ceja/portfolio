@@ -14,6 +14,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
     <html lang="en">
       <body className= "flex min-h-screen bg-[#0f0f0f]">
@@ -21,19 +22,19 @@ export default function RootLayout({
         
          <Link href="/">
           <button>
-            <Image src="/portfolio/icons/home.png" alt="Home" width={30} height={30}/>
+            <Image src={`${basePath}/icons/home.png`} alt="Home" width={30} height={30}/>
           </button>
           </Link>
         
           <Link href="/portfolio">
            <button>
-            <Image src="/portfolio/icons/portfolio.png" alt="Portfolio" width={30} height={30}/>
+            <Image src={`${basePath}/icons/portfolio.png`} alt="Portfolio" width={30} height={30}/>
            </button>
           </Link>
 
           <Link href="/contact">
             <button>
-              <Image src="/portfolio/icons/contact.png" alt="Contact" width={30} height={30}/>
+              <Image src={`${basePath}/icons/contact.png`} alt="Contact" width={30} height={30}/>
             </button>
           </Link>
         </div>

@@ -32,6 +32,7 @@ export default function Contact() {
         }
         
     }
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
     return (
         <div className={vt323.className + " min-h-screen"}>
 
@@ -44,12 +45,12 @@ export default function Contact() {
             <div className= "flex items-center justify-center min-h-[calc(100vh-100px)]">
 
                 <div className= "flex items-center justify-center">
-                    <Image src="/portfolio/icons/linkedin.jpg" alt="Linkedin" width={50} height={50} className= "rounded-full" style= {{ width: "clamp(20px, 5vw, 80px)", height: "clamp(20px, 5vw, 80px)" }}/>
+                    <Image src={`${basePath}/icons/linkedin.jpg`} alt="Linkedin" width={50} height={50} className= "rounded-full" style= {{ width: "clamp(20px, 5vw, 80px)", height: "clamp(20px, 5vw, 80px)" }}/>
                     <Link href="https://www.linkedin.com/in/emmanuel-ceja/" target="_blank" rel="noopener noreferrer" className="text-[#787878] ml-2" style= {{ fontSize: "clamp(16px, 2vw, 30px)" }}> 
                         Emmanuel-Ceja
                     </Link>
                 
-                    <Image src="/portfolio/icons/email.jpg" alt="Email" width={50} height={50} className= "rounded-full ml-4" style= {{ width: "clamp(20px, 5vw, 80px)", height: "clamp(20px, 5vw, 80px)" }}/>
+                    <Image src={`${basePath}/icons/email.jpg`} alt="Email" width={50} height={50} className= "rounded-full ml-4" style= {{ width: "clamp(20px, 5vw, 80px)", height: "clamp(20px, 5vw, 80px)" }}/>
                     <button onClick={handleClick} className= "text-[#787878] ml-2" style= {{ fontSize: "clamp(16px, 2vw, 30px)" }}>
                         {copied ? "Copied!" : email}
                     </button>
