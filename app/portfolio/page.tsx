@@ -19,25 +19,31 @@ export default function Portfolio() {
             <div className= "grid grid-cols-3 gap-4">
                 {/* AI Summarizer and Translator*/}
                 <Link href="/portfolio/ai-summarizer">
-                    <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg">
-                        <p className="text-[#e5e5e5] text-center"> AI Summarizer and Translator App</p>
-                        <Image src={`${basePath}/images/Mobile-App.jpeg`} alt="Mobile App Image" width={100} height={100}/>
+                    <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full">
+                        <p className="text-[#e5e5e5] text-center mb-4"> AI Summarizer and Translator App</p>
+                        <div className="relative w-full h-48 mb-4 flex items-center justify-center">
+                            <Image src={`${basePath}/images/Mobile-App.jpeg`} alt="Mobile App Image" width={100} height={100}/>
+                        </div>
                         <p className="text-[#787878] text-center">Smart summaries and real-time translations powered by Gemini AI.</p>
                     </div>
-                </Link>
+                </Link> 
                 {/* GUI Calculator Desktop App*/}
                 <Link href="/portfolio/gui-calculator">
-                    <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
+                    <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full"> 
                         <p className="text-[#e5e5e5] text-center"> GUI Calculator</p>
-                        <Image src={`${basePath}/images/GUI-Calculator.png`} alt="GUI Calculator Image" width={228} height={228}/>
+                        <div className="relative w-full h-48 mb-4 flex items-center justify-center">
+                            <Image src={`${basePath}/images/GUI-Calculator.png`} alt="GUI Calculator Image" width={228} height={228}/>
+                        </div>
                         <p className="text-[#787878] text-center"> A lightweight GUI calculator designed using Qt Creator.</p>
                     </div>
                 </Link>
                 {/* Custom String Class */}
                 <Link href="/portfolio/custom-string-class">
-                    <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg"> 
+                    <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full"> 
                         <p className="text-[#e5e5e5] text-center"> Custom String Class in C++</p>
-                        <Image src={`${basePath}/images/custom-string-class.png`} alt="Custom String Class Image" width={163} height={228}/>
+                        <div className="relative w-full h-48 mb-4 flex items-center justify-center">
+                            <Image src={`${basePath}/images/custom-string-class.png`} alt="Custom String Class Image" width={163} height={228}/>
+                        </div>
                         <p className="text-[#787878] text-center"> A custom implementation of a string class in C++ with overloaded operators and memory management.</p>
                     </div>
                 </Link>
