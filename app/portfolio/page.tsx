@@ -18,6 +18,7 @@ export default function Portfolio() {
 
             <div className= "grid grid-cols-3 gap-4">
                 {/* AI Summarizer and Translator*/}
+
                 <Link href="/portfolio/ai-summarizer">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full">
                         <p className="text-[#e5e5e5] text-center mb-4"> AI Summarizer and Translator App</p>
@@ -27,6 +28,7 @@ export default function Portfolio() {
                         <p className="text-[#787878] text-center">Smart summaries and real-time translations powered by Gemini AI.</p>
                     </div>
                 </Link> 
+
                 {/* GUI Calculator Desktop App*/}
                 <Link href="/portfolio/gui-calculator">
                     <div className="flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full"> 
@@ -38,15 +40,24 @@ export default function Portfolio() {
                     </div>
                 </Link>
                 {/* Custom String Class */}
+
                 <Link href="/portfolio/custom-string-class">
                     <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full"> 
                         <p className="text-[#e5e5e5] text-center"> Custom String Class in C++</p>
                         <div className="relative w-full h-48 mb-4 flex items-center justify-center">
-                            <Image src={`${basePath}/images/custom-string-class.png`} alt="Custom String Class Image" width={163} height={228}/>
+                            <Image src={`${basePath}/images/custom-string-class.png`} alt="Custom String Class Image" width={163} height={300}/>
                         </div>
                         <p className="text-[#787878] text-center"> A custom implementation of a string class in C++ with overloaded operators and memory management.</p>
                     </div>
                 </Link>
+
+                {/* Shared Calendar */}
+                <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full">
+                    <p className="text-[#e5e5e5] text-center"> Shared Calendar</p>
+                    <div className="relative w-full h-48 mb-4 flex items-center justify-center">
+                        <Image src={`${basePath}/images/workinprogress.jpg`} alt="Work in Progress" width={180} height={100}/>
+                    </div>
+                </div>
             </div>
         </div>
     )

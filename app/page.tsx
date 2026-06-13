@@ -24,11 +24,12 @@ export default function Home() {
     
     
     {/*Tech Stack Section*/}
-     <div className= "grid grid-cols-2 gap-4">
+     <div className= "grid grid-cols-3 gap-4">
       <Image src={`${basePath}/icons/cpp.jpg`} alt="C++" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src={`${basePath}/icons/python.png`} alt="Python" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src={`${basePath}/icons/typescript.jpg`} alt="TypeScript" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       <Image src={`${basePath}/icons/nextjs.jpg`} alt="Next.js" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
+      <Image src={`${basePath}/icons/java.jpg`} alt="Java" width={150} height={150} className= "rounded-full w-[clamp(80px, 8vw, 180px)] h-[clamp(80px, 8vw, 180px)]"/>
       </div>
 
     </div>
