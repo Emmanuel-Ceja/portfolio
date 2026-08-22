@@ -52,12 +52,15 @@ export default function Portfolio() {
                 </Link>
 
                 {/* Shared Calendar */}
-                <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full">
-                    <p className="text-[#e5e5e5] text-center"> Shared Calendar</p>
-                    <div className="relative w-full h-48 mb-4 flex items-center justify-center">
-                        <Image src={`${basePath}/images/workinprogress.jpg`} alt="Work in Progress" width={180} height={100}/>
+                <Link href="/portfolio/shared-calendar">
+                    <div className= "flex flex-col items-center border-2 border-[#e5e5e5] rounded-lg p-4 h-full">
+                        <p className="text-[#e5e5e5] text-center"> Shared Calendar</p>
+                        <div className="relative w-full h-48 mb-4 flex items-center justify-center">
+                            <Image src={`${basePath}/images/SharedCalendar.png`} alt="Work in Progress" width={400} height={100}/>
+                        </div>
+                        <p className="text-[#787878] text-center"> A shared calendar web application that allows partners to manage events collaboratively.</p>
                     </div>
-                </div>
+                </Link>
             </div>
         </div>
     )

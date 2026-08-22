@@ -58,8 +58,6 @@ export default function Contact() {
                         Emmanuel-Ceja
                     </Link>
                 </div>
-
-
             </div>
         </div>
 
